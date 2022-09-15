@@ -4,6 +4,8 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  margin-bottom: -100px;
 }
 .bolded {
   font-weight: bold;
@@ -32,7 +34,7 @@ body {
 
 .button-border:hover {
   background-color: black;
-  transition-delay: 0.3ms;
+  transition: 1s;
 }
 .button-border {
   border: 0.44px solid rgba(255, 255, 255, 0.649);
@@ -195,24 +197,31 @@ body {
 .gallery {
   position: relative;
   display: flex;
-  max-height: 700px;
+  min-height: 700px;
   max-width: 1100px;
   justify-content: space-between;
   justify-content: center;
   flex-wrap: wrap;
   margin: auto;
-  flex-shrink: 0;
+  flex-shrink: 3;
 }
 .gallery-img img {
-  flex-shrink: 0;
   margin: 10px;
   height: 320px;
   width: 320px;
+  flex-basis: 320px;
   flex-grow: 2;
+  flex-shrink: 2;
   position: relative;
 }
+
+footer {
+  height: 100px;
+}
+
 .about-me-end-post {
   display: flex;
+  justify-content: center;
   position: relative;
   margin: 10px;
   font-size: 1.5rem;
@@ -285,6 +294,7 @@ body {
 
 .navbar-links li:hover {
   background-color: black;
+  transition: 0.7s;
 }
 .navbar-links li a:hover {
   color: white;
