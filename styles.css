@@ -34,7 +34,7 @@ body {
 
 .button-border:hover {
   background-color: black;
-  transition: 1s;
+  transition: 0.7s;
 }
 .button-border {
   border: 0.44px solid rgba(255, 255, 255, 0.649);
@@ -88,8 +88,8 @@ body {
 }
 #about-right-post-photo {
   display: flex;
-  max-width: 305px;
-  max-height: 362px;
+  max-width: 240px;
+  max-height: 300px;
   flex-basis: 300px;
   flex-shrink: 1;
   flex-direction: column;
@@ -128,7 +128,7 @@ body {
 
 #about-me-first-part-box-heading {
   position: relative;
-  margin: 10px;
+  margin: 30px;
   font-size: 1.5rem;
   text-align: center;
   font-weight: 300;
@@ -137,7 +137,7 @@ body {
   padding: 10px;
   max-width: 550px;
   margin: auto;
-  margin-top: 62px;
+
   width: 75%;
   align-self: flex-end;
 }
