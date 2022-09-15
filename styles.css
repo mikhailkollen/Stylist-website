@@ -300,6 +300,7 @@ footer {
   height: 42px;
   width: 42px;
   position: relative;
+  background: transparent;
 }
 
 /* -------NAVBAR--------- */
