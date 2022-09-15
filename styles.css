@@ -1,15 +1,18 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
   margin-bottom: -100px;
 }
+
 .bolded {
   font-weight: bold;
 }
+
 /* -----FRONT MENU---- */
 .front-menu {
   display: flex;
@@ -19,6 +22,7 @@ body {
   /* justify-content: center; */
   /* align-items: center; */
 }
+
 .front-menu-button {
   position: absolute;
   top: 80%;
@@ -36,6 +40,7 @@ body {
   background-color: black;
   transition: 0.7s;
 }
+
 .button-border {
   border: 0.44px solid rgba(255, 255, 255, 0.649);
   background: transparent;
@@ -45,11 +50,13 @@ body {
   vertical-align: middle;
   line-height: 40px;
 }
+
 .row {
   margin-top: 1%;
   display: flex;
   justify-content: space-between;
 }
+
 .column {
   height: 85%;
   flex-basis: 32%;
@@ -57,14 +64,17 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .column img {
   width: 100%;
 }
+
 #logo-button {
   border: none;
   background: none;
   cursor: pointer;
 }
+
 #logo-button img {
   min-width: 350px;
   display: flex;
@@ -86,6 +96,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
 #about-right-post-photo {
   display: flex;
   max-width: 240px;
@@ -137,9 +148,8 @@ body {
   padding: 10px;
   max-width: 550px;
   margin: auto;
-
+  align-self: center;
   width: 75%;
-  align-self: flex-end;
 }
 
 .middle-page-banner {
@@ -156,6 +166,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .middle-page-banner img {
   max-width: 650px;
   max-height: 500px;
@@ -163,9 +174,11 @@ body {
   filter: brightness(70%);
   width: 100%;
 }
+
 #top-front-menu-button {
   top: 70%;
 }
+
 .middle-page-banner-text {
   top: 35%;
   position: absolute;
@@ -179,9 +192,11 @@ body {
   width: 75%;
   /* transform: translateX(-50%); */
 }
+
 .about-me-second-part p {
   font-size: 1rem;
 }
+
 .centered-bold-text {
   display: flex;
   flex-direction: column;
@@ -194,6 +209,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .gallery {
   position: relative;
   display: flex;
@@ -205,6 +221,7 @@ body {
   margin: auto;
   flex-shrink: 3;
 }
+
 .gallery-img img {
   margin: 10px;
   height: 320px;
@@ -235,6 +252,7 @@ footer {
   margin-top: 62px;
   width: 75%;
 }
+
 .socials {
   white-space: nowrap;
   display: flex;
@@ -247,11 +265,13 @@ footer {
   margin-bottom: 40px;
   width: 75%;
 }
+
 .socials a {
   white-space: nowrap;
   position: relative;
   margin: 10px;
 }
+
 .socials a img {
   white-space: nowrap;
   height: 42px;
@@ -271,16 +291,19 @@ footer {
   margin-top: 25px;
   margin-right: 15px;
 }
+
 .main-page-logo {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
 }
+
 .navbar-links ul {
   margin: 0;
   padding: 0;
   display: flex;
 }
+
 .navbar-links li {
   list-style: none;
 }
@@ -296,9 +319,11 @@ footer {
   background-color: black;
   transition: 0.7s;
 }
+
 .navbar-links li a:hover {
   color: white;
 }
+
 .toggle-button {
   position: absolute;
   top: 0.75rem;
@@ -309,6 +334,7 @@ footer {
   width: 30px;
   height: 21px;
 }
+
 .toggle-button .bar {
   height: 3px;
   width: 100%;
@@ -327,23 +353,29 @@ footer {
     display: none;
     width: 100%;
   }
+
   .navbar {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .navbar-links ul {
     width: 100%;
     flex-direction: column;
   }
+
   .navbar-links li {
     text-align: center;
   }
+
   .navbar-links li a {
     padding: 0.5rem 1rem;
   }
+
   .navbar-links.active {
     display: inline;
   }
+
   #logo-button img {
     width: 250px;
   }
