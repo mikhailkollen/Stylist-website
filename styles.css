@@ -405,3 +405,158 @@ footer {
     width: 250px;
   }
 }
+
+/* Mobile version */
+@media (max-width: 800px) {
+  .navbar {
+    position: fixed;
+    z-index: 2;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 0%;
+    width: 100%;
+  }
+
+  .front-menu {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 25px;
+  }
+
+  .row {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column {
+    height: 85%;
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 1036px;
+    min-width: 300px;
+    /* height: 500px; */
+    /* border: solid black 2px; */
+    margin: 15px 5px;
+    position: relative;
+    /* margin-left: 25%;
+  margin-right: 15%; */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -40px;
+  }
+
+  .about-me-first-part {
+    margin: 0%;
+    position: relative;
+    /* border: 2px solid black; */
+    max-width: 700px;
+  }
+
+  #about-me-first-part-heading {
+    font-size: 1.2rem;
+    max-width: 700px;
+    max-height: 106px;
+    position: relative;
+    font-family: "Vollkorn SC", serif;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+
+  #about-me-first-part-post {
+    margin: 5px auto 5px auto;
+    max-width: 700px;
+    /* border: solid black 2px; */
+    max-height: 206px;
+    min-height: 100px;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  #about-me-first-part-box-heading {
+    position: relative;
+    margin: 30px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    border: 1px solid black;
+    vertical-align: middle;
+    padding: 10px;
+    max-width: 550px;
+    margin: auto;
+    align-self: center;
+    width: 75%;
+    font-family: "CarosSoftLight", sans-serif;
+    font-weight: 400;
+    margin: 20px auto 20px auto;
+  }
+  .about-me-second-part {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+  }
+  .about-mobile-view {
+    display: flex;
+    max-height: 210px;
+    max-width: 350px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .about-mobile-view p {
+    max-width: 185px;
+    max-height: 204px;
+    font-size: 0.9rem;
+  }
+
+  #about-right-post-photo {
+    position: relative;
+    max-height: 204px;
+    max-width: 185px;
+    margin-top: 0;
+  }
+
+  .about-me-second-part h4 {
+    font-size: 1rem;
+  }
+
+  .about-me-second-part p {
+    font-size: 0.9rem;
+  }
+
+  #main-page-logo-image {
+    width: 90px;
+    height: 30px;
+  }
+
+  .toggle-button .bar {
+    height: 2px;
+  }
+
+  .toggle-button {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+
+  .middle-page-banner {
+    height: 476px;
+  }
+
+  .middle-page-banner img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    filter: brightness(70%);
+    width: 100%;
+  }
+}
