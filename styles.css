@@ -474,7 +474,7 @@ footer {
 
   #about-me-first-part-post {
     margin: 5px auto 5px auto;
-    max-width: 700px;
+    max-width: 420px;
     /* border: solid black 2px; */
     max-height: 206px;
     min-height: 100px;
@@ -507,27 +507,29 @@ footer {
   }
   .about-mobile-view {
     display: flex;
-    max-height: 210px;
-    max-width: 350px;
+    max-height: 400px;
+    max-width: 420px;
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    min-height: 175px;
   }
   .about-mobile-view p {
-    max-width: 185px;
-    max-height: 204px;
+    max-width: 225px;
+    max-height: 400px;
     font-size: 0.9rem;
   }
 
   #about-right-post-photo {
     position: relative;
     max-height: 204px;
-    max-width: 185px;
+    max-width: 195px;
     margin-top: 0;
   }
 
   .about-me-second-part h4 {
     font-size: 1rem;
+    position: relative;
   }
 
   .about-me-second-part p {
@@ -536,7 +538,7 @@ footer {
 
   #main-page-logo-image {
     width: 90px;
-    height: 30px;
+    height: 35px;
   }
 
   .toggle-button .bar {
@@ -558,5 +560,27 @@ footer {
     position: relative;
     filter: brightness(70%);
     width: 100%;
+  }
+
+  .centered-bold-text,
+  .about-me-end-post {
+    font-size: 1rem;
+  }
+
+  .gallery-img img {
+    max-height: 160px;
+    max-width: 160px;
+    margin-bottom: 0;
+    /* padding-bottom: 0; */
+  }
+
+  .gallery-img {
+    max-height: 160px;
+    max-width: 165px;
+  }
+
+  .gallery {
+    max-height: 600px;
+    min-height: 500px;
   }
 }
