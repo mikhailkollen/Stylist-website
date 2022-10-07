@@ -395,7 +395,7 @@ details summary:after {
   position: absolute;
   font-size: 1.75rem;
   line-height: 0;
-  margin-top: 0.75rem;
+  margin-top: 10px;
   margin-right: 1rem;
   right: 0;
   font-weight: 200;
