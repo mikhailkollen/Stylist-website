@@ -29,8 +29,8 @@ p {
   width: 80%;
   margin: auto;
   padding-top: 50px;
-  /* justify-content: center; */
-  /* align-items: center; */
+  /* align-items: center;
+  justify-content: center; */
 }
 
 .front-menu-button {
@@ -79,6 +79,7 @@ p {
 
 .column img {
   width: 100%;
+  margin: auto;
 }
 
 #logo-button {
@@ -108,6 +109,8 @@ p {
   left: 50%;
   transform: translateX(-50%);
   margin-top: -40px;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 #about-right-post-photo {
@@ -209,6 +212,12 @@ p {
   /* transform: translateX(-50%); */
 }
 
+.about-mobile-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .about-me-second-part h4 {
   font-family: "Rubik", sans-serif;
   font-size: 1.2rem;
@@ -217,7 +226,6 @@ p {
 
 .about-me-second-part p {
   font-size: 1.2rem;
-  margin: 5px;
 }
 
 .centered-bold-text {
@@ -231,6 +239,7 @@ p {
   margin: 30px auto 30px auto;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
+  padding: 15px;
 }
 
 .gallery {
@@ -363,14 +372,13 @@ footer {
 }
 
 .services-end-photo {
-  margin-top: 20px;
+  padding-top: 20px;
   max-width: 400px;
-  max-height: fit-content;
+  display: flex;
 }
 
 .services-end-photo img {
-  object-fit: cover;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 .services-end-photo-text {
@@ -558,8 +566,9 @@ details p {
 
   .front-menu {
     display: flex;
-    width: 90%;
-    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     padding-top: 25px;
   }
 
@@ -573,13 +582,15 @@ details p {
     display: flex;
     flex-direction: column;
     max-height: 1400px;
+    align-items: center;
+    justify-content: center;
   }
 
   .column {
     max-height: 1300px;
     flex-basis: 32%;
     margin-bottom: 0;
-    margin-top: 0%;
+    margin-top: 10px;
     position: relative;
     overflow: hidden;
   }
@@ -590,21 +601,23 @@ details p {
   .about-me {
     display: flex;
     flex-direction: column;
-    max-width: 1036px;
+    max-width: 500px;
     min-width: 300px;
     /* height: 500px; */
     /* border: solid black 2px; */
-    margin: 15px 5px;
+    /* margin: 15px 15px; */
     position: relative;
     /* margin-left: 25%;
   margin-right: 15%; */
     left: 50%;
     transform: translateX(-50%);
     margin-top: -40px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .about-me-first-part {
-    margin: 0%;
+    margin: 5px;
     position: relative;
     /* border: 2px solid black; */
     max-width: 700px;
@@ -640,7 +653,6 @@ details p {
     vertical-align: middle;
     padding: 10px;
     max-width: 550px;
-    margin: auto;
     align-self: center;
     width: 75%;
     font-family: "CarosSoftLight", sans-serif;
@@ -656,16 +668,18 @@ details p {
   .about-mobile-view {
     display: flex;
     max-height: 400px;
-    max-width: 420px;
+    max-width: 500px;
     align-items: center;
     justify-content: space-between;
     margin: auto;
     min-height: 175px;
+    margin: 5px;
   }
   .about-mobile-view p {
-    max-width: 225px;
+    max-width: 300px;
     max-height: 400px;
     font-size: 0.9rem;
+    margin-right: 10px;
   }
 
   #about-right-post-photo {
@@ -678,6 +692,7 @@ details p {
   .about-me-second-part h4 {
     font-size: 1rem;
     position: relative;
+    margin: 5px;
   }
 
   .about-me-second-part p {
@@ -711,6 +726,11 @@ details p {
     object-fit: none;
   }
 
+  .middle-page-banner-text {
+    top: 40%;
+    font-size: 1rem;
+  }
+
   .centered-bold-text,
   .about-me-end-post {
     font-size: 1rem;
@@ -731,5 +751,53 @@ details p {
   .gallery {
     max-height: 600px;
     min-height: 500px;
+  }
+  .services-page-text {
+    font-size: 1.5rem;
+  }
+  .services-summary-mobile-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+  }
+
+  details {
+    margin: 5px;
+  }
+
+  details summary {
+    font-size: 1rem;
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .services-page-heading {
+    font-size: 1.2rem;
+    margin: 30px auto 0px auto;
+    padding: 0px 15px;
+  }
+
+  #first-services-page-heading {
+    margin-top: 20px;
+  }
+
+  .services-description p {
+    max-width: 500px;
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    margin: auto;
+  }
+
+  .services-end-photo-text {
+    top: 50%;
+    font-size: 1rem;
+  }
+  .services-page-photo img {
+    object-fit: cover;
+  }
+
+  .services-end-photo {
+    margin-top: 30px;
   }
 }
