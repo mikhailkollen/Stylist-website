@@ -317,6 +317,9 @@ footer {
   margin-bottom: 40px;
 }
 
+.offline-services-page-photo {
+  object-fit: none;
+}
 .services-page-text {
   top: 67%;
   position: absolute;
@@ -366,6 +369,7 @@ footer {
 }
 
 .services-end-photo img {
+  object-fit: cover;
   margin-top: 40px;
 }
 
