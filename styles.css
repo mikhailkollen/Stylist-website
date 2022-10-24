@@ -735,7 +735,7 @@ details p {
   }
 
   .middle-page-banner-text {
-    top: 50%;
+    top: 40%;
     font-size: 1rem;
   }
 
@@ -762,6 +762,7 @@ details p {
   }
   .services-page-text {
     font-size: 1.5rem;
+    top: 80%;
   }
   .services-summary-mobile-view {
     display: flex;
@@ -772,6 +773,10 @@ details p {
 
   details {
     margin: 5px;
+  }
+
+  details p {
+    padding: 1px 15px 1px 15px;
   }
 
   details summary {
@@ -803,10 +808,10 @@ details p {
   }
   .services-page-photo img {
     object-fit: cover;
-    margin-top: 100px;
+    margin-top: 120px;
   }
 
-  .services-end-photo {
+  .services-end-photo img {
     margin-top: 30px;
   }
 
@@ -816,6 +821,6 @@ details p {
 
   footer {
     height: 100px;
-    margin: 20px auto 130px auto;
+    margin: 20px auto 100px auto;
   }
 }
