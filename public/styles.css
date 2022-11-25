@@ -416,7 +416,12 @@ details summary::-webkit-details-marker {
   display: none;
 }
 
-details summary {
+.hideBtn {
+  background-color: white;
+}
+
+details summary,
+.hideBtn {
   width: 100%;
   position: relative;
   cursor: pointer;
@@ -425,10 +430,11 @@ details summary {
   border: 1px solid black;
   padding: 10px 30px;
   font-family: "Rubik", sans-serif;
+  text-align: center;
 }
 
-details summary:after {
-  content: "+";
+details summary:after,
+.hideBtn::after {
   color: black;
   position: absolute;
   font-size: 1.75rem;
@@ -441,11 +447,12 @@ details summary:after {
   transition: 200ms linear;
 }
 
-details[open] summary:after {
+/* details[open] summary:after {
   transform: rotate(45deg);
   font-size: 2rem;
-}
-details summary {
+} */
+details summary,
+.hideBtn {
   outline: 0;
 }
 
@@ -455,6 +462,7 @@ details p {
   padding-top: 1rem;
   max-width: 600px;
 }
+
 /* -------NAVBAR--------- */
 
 .navbar {
@@ -776,13 +784,15 @@ details p {
   }
 
   details p {
-    padding: 1px 15px 1px 15px;
+    padding: 15px 15px 1px 15px;
   }
 
-  details summary {
+  details summary,
+  .hideBtn {
     font-size: 1rem;
     max-width: 250px;
     margin: auto;
+    display: list-item;
   }
 
   .services-page-heading {
