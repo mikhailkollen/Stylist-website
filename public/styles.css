@@ -181,8 +181,8 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 650px;
-  max-height: 500px;
+  max-width: 670px;
+  max-height: 764px;
   margin: 0%;
   position: relative;
   left: 50%;
@@ -191,8 +191,8 @@ a {
 }
 
 .middle-page-banner img {
-  max-width: 650px;
-  max-height: 500px;
+  max-width: 670px;
+  max-height: 764px;
   position: relative;
   width: 100%;
 }
@@ -731,7 +731,7 @@ details p {
     height: 100%;
     position: relative;
     width: 100%;
-    object-fit: none;
+    object-fit: cover;
   }
 
   .middle-page-banner-text {
